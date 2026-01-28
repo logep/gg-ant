@@ -1,8 +1,10 @@
 # GG-ANT Projects
 
-这是一个包含多个 Web 应用的仓库。
+这是一个 monorepo（单仓库多项目），包含多个独立的 Web 应用。
 
-## 项目列表
+> 💡 **提示**: 每个项目都可以独立开发和部署到 Vercel。
+
+## 📂 项目列表
 
 ### 📅 Calendar App
 一个功能强大的中国万年历应用，支持 PWA、日历导出等功能。
@@ -38,7 +40,22 @@ npm run build
 
 ## 部署
 
-本项目使用 Vercel 进行部署。每个子项目都会独立部署。
+本项目使用 Vercel 进行部署。每个子项目都会独立部署为单独的应用。
+
+### 🚀 快速部署
+
+详细的部署指南请查看：**[VERCEL_DEPLOYMENT_GUIDE.md](./VERCEL_DEPLOYMENT_GUIDE.md)**
+
+**简要步骤**：
+1. 在 Vercel 导入 `gg-ant` 仓库
+2. 为每个子项目创建独立的部署
+3. 设置对应的 **Root Directory**（`calendar-app` 或 `snake-game`）
+4. 点击部署
+
+### 🌐 在线预览
+
+- Calendar App: [部署后更新]
+- Snake Game: [部署后更新]
 
 ## 许可证
 
