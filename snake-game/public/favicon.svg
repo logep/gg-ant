@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect fill="#0f0f23" width="32" height="32" rx="4"/>
+  <g transform="translate(3, 3) scale(0.05)">
+    <!-- Snake body -->
+    <path d="M120 320 Q120 200 200 200 Q280 200 280 280 Q280 360 360 360 Q440 360 440 280 Q440 200 360 200 Q280 200 280 120" 
+          fill="none" 
+          stroke="#00ff88" 
+          stroke-width="50" 
+          stroke-linecap="round"/>
+    <!-- Snake head -->
+    <circle cx="280" cy="120" r="40" fill="#00ff88"/>
+  </g>
+</svg>
