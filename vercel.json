@@ -1,0 +1,5 @@
+{
+    "buildCommand": "cd calendar-app && npm install && npm run build",
+    "outputDirectory": "calendar-app/dist",
+    "installCommand": "cd calendar-app && npm install"
+}
